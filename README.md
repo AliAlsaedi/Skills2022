@@ -13,8 +13,7 @@ repository.
 #### Task preparation => Write the Ansible script to install and test the websever with ping command 
 in a single playbook.  
 #### Task implementation => To carry out this task:
-1: Enable the SSH server.
-2: Edit the Ansible inventory file: I created three files in this step:
+Edit the Ansible inventory file: I created three files in this step:
 ansible.cfg, apache2.yml and hosts.
 #### Task troubleshooting => I haven't run into any issues in this task. 
 
@@ -23,7 +22,7 @@ ansible.cfg, apache2.yml and hosts.
 ## Task 3 -- Docker
 #### Task name =>  Manage Docker microservices. 
 #### Task preparation => To complete this task, I researched various Docker images for the ntp service and ultimately decided on cturra/ntp.  
-#### Task implementation => 
+#### Task implementation => To complete this task, we must first install Docker on our machine.
 #### Task troubleshooting => I haven't run into any issues in this task.
 
 
@@ -31,7 +30,7 @@ ansible.cfg, apache2.yml and hosts.
 ## Task 4 -- Jenkins
 #### Task name => CI/CD Pipeline using Jenkins
 #### Task preparation => Create a Jenkins pipeline 
-#### Task implementation => 
+#### Task implementation => Installed Jenkins in own laptop
 #### Task troubleshooting =>  I haven't run into any issues in this task.
 
 
