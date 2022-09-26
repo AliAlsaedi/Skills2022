@@ -1,0 +1,12 @@
+---
+  - name:  WEBSERVER INSTALLATION AND TESTING
+    hosts: webservers
+    become: yes
+    
+    tasks:
+      - name: INSTALLATION OF APACHE2
+        apt: name=apache2 update_cache=yes state=latest
+
+      - name: TESTING APACHE2 SERVER
+        ansible.builtin.ping:
+    
